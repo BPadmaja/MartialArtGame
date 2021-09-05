@@ -1,0 +1,26 @@
+<div id='mydiv'>
+	
+	<center><button id='myButton' style="padding:100px;"><img src="images/bp.jpg" style='border-radius: 50%;' />Play</button></center>
+
+	
+</div>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "animate.html";
+    };
+</script>
+<style type="text/css"> 
+#mydiv {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #fff;
+    background-color: #ff00ff;
+}
+
+</style>
